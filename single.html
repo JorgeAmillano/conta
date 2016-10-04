@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+	<title>CONTA</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/superslides.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	
+
+	
+</head>
+<body id="inicio">
+	<header>
+
+		<nav>
+			<i id="menu-logo" class="icon icon-menu-1"></i>	
+			<a  href="index.html"><img id="logo" src="images/logo.png" alt=""></a>
+			<ul>
+				<li><a href="index.html#inicio">INICIO</a></li>
+				<li><a href="index.html#consultora">CONSULTORA</a></li>
+				<li><a href="index.html#calltocontact">SERVICIOS</a></li>
+				<li><a href="index.html#equipo">CONTACTO</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+		<section id="single">
+			<h1>ESTE ES EL TITULO DE ENTRADA</h1>
+			<div class="contenedor-single">
+				<div class="autor-fecha">
+					<span><p>04/oct/2016</p></span>
+					<span>/</span>
+					<span><p>Autor de entrada</p></span>
+				</div>
+
+				<img src="https://dummyimage.com/250X250/000/fff&text=imagenEntrada"/>
+
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum laudantium magni aliquid rerum tempora sapiente distinctio, dolor ducimus soluta, natus atque nihil, minus ratione quibusdam necessitatibus officiis! Error aspernatur, a.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, dignissimos dolorem facilis blanditiis corrupti. Ab deleniti corporis vel id, accusantium laudantium. Doloremque totam optio porro, unde eum pariatur neque aliquam.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellat quam ipsa eveniet dignissimos sapiente, quisquam omnis nobis quia harum commodi, dicta modi repellendus illo eius inventore saepe excepturi quos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate id natus saepe et totam sit officiis. Temporibus totam eius impedit, repellat sapiente quibusdam tempore placeat ipsum rerum laboriosam possimus natus.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ullam, error! Consequuntur maiores consectetur voluptatum provident suscipit, odit dolores ipsam magni, fugiat mollitia perspiciatis tenetur beatae error esse nulla molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum aut, ut fuga excepturi nobis. Iure hic quibusdam animi asperiores fugit, commodi consequuntur voluptatibus accusamus voluptates odio in dolores nulla, odit!</p>
+			</div>
+		</section>
+
+		<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<img src="images/logocompleto.png" alt="">
+					<p>"Somos la alianza perfecta para su negocio"</p>
+				</div>
+
+				<div class="dom-footer col-xs-12 col-sm-6 col-md-4">
+					<h3>Domicilio</h3>
+					<p>Calle San miguel 365</p>
+					<p>Col. Prolongacion</p>
+					<p>Guadalajara, Jalisco.</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<h3>Síguenos</h3>
+					<ul>
+						<li><a href=""><i class="icon icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon icon-twitter"></i></a></li>
+						<li><a href=""><i class="icon icon-gplus"></i></a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<div id="firma">
+			<hr align="center">
+			<p>NL Consultoría 2016 | Desarrollado por <a href="https://jorgeamillano.com.mx" target="_blank">JorgeAmillano</a></p>
+		</div>	
+	</footer>
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.superslides.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script>
+	    $(function() {
+	      $('#slides').superslides({
+	        hashchange: true,
+	        play: 4200
+	      });
+
+	      $('#slides').on('mouseenter', function() {
+	        $(this).superslides('stop');
+	        console.log('Stopped')
+	      });
+	      $('#slides').on('mouseleave', function() {
+	        $(this).superslides('start');
+	        console.log('Started')
+	      });
+	    });
+  </script>
+</body>
+</html>
