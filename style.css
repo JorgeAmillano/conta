@@ -681,9 +681,46 @@ footer ul li{
 	text-shadow: 1px 1px 1px #616161;
 }
 
+#paginacion{
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
 
+#pag-next{
+	float: left;
+	margin-left: 10px;
+	font-size: 1.3rem;
+	border: 1px solid #30a59f;
+	border-radius: 21px;
+	color:#30a59f;
+}
+
+#pag-next:hover{
+	border: 1px solid #30a59f;
+	background: #30a59f;
+	color:#fff;
+}
+
+
+#pag-prev{
+	float: right;
+	margin-right: 10px;
+	font-size: 1.3rem;
+	border: 1px solid #30a59f;
+	border-radius: 21px;
+	color:#30a59f;
+}
+
+#pag-prev:hover{
+	border: 1px solid #30a59f;
+	background: #30a59f;
+	color:#fff;
+}
+
+/***************************************/
 /************* SINGLE ****************/
-
+/***************************************/
 #single{
 	width: 100%;
 	height: 100%;
